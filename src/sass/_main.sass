@@ -232,7 +232,6 @@
   &__bg-img
     background: url(../img/mobile_app.png)
     min-height: 397px
-  &__auto
   &__img
     margin-top: 54px
   &__txt
@@ -241,3 +240,50 @@
     align-items: center
     text-align: center
     color: #222222
+
+.requirements
+  &__text
+    margin-top: 33px
+    font-weight: 400
+    font-size: 22px
+    align-items: center
+    color: #1CA8C3
+    &--red
+      margin-top: 50px
+      color: #FF5656
+      font-weight: 400
+      font-size: 22px
+      align-items: center
+  &__list-txt
+    padding-left: 15px
+    position: relative
+    font-weight: 300
+    font-size: 17px
+    align-items: center
+    line-height: 20px
+    color: #222222
+    &--red
+      padding-left: 15px
+      position: relative
+      font-weight: 300
+      font-size: 17px
+      align-items: center
+      line-height: 20px
+      color: #222222
+    &--red::before
+      position: relative
+      content: url('../img/svg/check_red.svg')
+      top: 5px
+      left: 0
+      padding-right: 10px
+  &__list-txt::before
+    position: relative
+    content: url('../img/svg/check_blue.svg')
+    top: 5px
+    left: 0
+    padding-right: 10px
+  &__text-add
+    font-weight: 300
+    font-size: 17px
+    align-items: center
+    color: #1CA8C3
