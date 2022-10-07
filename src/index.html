@@ -17,141 +17,149 @@
 
 <body>
 
-    <header>
-        <nav class="navigation">
-            <ul class="nav-menu d-flex justify-content-center align-items-center">
-              <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
-              <li class="menu__item"><a href="#" class="menu__link">Со своим автомобилем</a></li>
-              <li class="menu__item"><a href="#" class="menu__link">На автомобиле компании</a></li>
-              <li class="menu__item"><a href="#" class="menu__link">Требования</a></li>
-              <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
-              <li class="menu__item"><a href="#" class="menu__link">Оставить заявку</a></li>
-            </ul>
+    <header class="nav-bg">
+        <div class="container">
+          <div class="row">
+            <nav class="navigation d-flex justify-content-center align-items-center">
+              <a href="#" class="menu__link">Главная</a>
+              <a href="#" class="menu__link">Со своим автомобилем</a>
+              <a href="#" class="menu__link">На автомобиле компании</a>
+              <a href="#" class="menu__link">Требования</a>
+              <a href="#" class="menu__link">Контакты</a>
+              <a href="#" class="menu__link">Оставить заявку</a>
         </nav>
+          </div>
+        </div>
     </header>
 
     <main>
       <section class="main-info">
         <div class="blackout">
           <div class="container">
-            <div class="logo d-flex justify-content-between">
-              <div class="logo__img">
-                <img src="./img/svg/Uber.svg" alt="logo-image">
-                <p class="logo__txt">Официальный партнер Uber в Москве</p>
-              </div>
-              <div class="logo__tel">
-                <div class="logo__wrapper">
-                  <span>Звоните нам ежедневно</span>
-                  <a class="logo__phone" href="tel:+74957970988">8 495 797 09 88</a>
+            <div class="row">
+              <div class="logo d-flex justify-content-between">
+                <div class="logo__img">
+                  <img src="./img/svg/Uber.svg" alt="logo-image">
+                  <p class="logo__txt">Официальный партнер Uber в Москве</p>
                 </div>
-                <button class="logo__button" type="button">заказать звонок</button>
+                <div class="logo__tel">
+                  <div class="logo__wrapper">
+                    <span>Звоните нам ежедневно</span>
+                    <a class="logo__phone" href="tel:+74957970988">8 495 797 09 88</a>
+                  </div>
+                  <button class="logo__button" type="button">заказать звонок</button>
+                </div>
               </div>
             </div>
           </div>
         </div>
           <div class="container">
-            <div class="heading d-flex justify-content-center align-items-center">
-              <h1 class="heading__h1">КОМПАНИЯ UBER PARTNERS!</h1>
-              <h2 class="heading__h2">ПРИГЛАШАЕМ ВОДИТЕЛЕЙ! НА СВОЕМ АВТО!</h2>
-              <span class="heading__txt">Компания UBER динамически развивающаяся. Компания на рынке занимает лидирующее место среди таксомоторных компаний. Компания абсолютно прозрачная вы можете контролировать все процессы у себя в личном кабинете. Бонуcная система. По-мимо выполненной работы по заказам, компания начисляет бонусы за пиковое время.<br><br> Мы одни из партнеров и зарекомендовали себя как одна из лучших команд в городе Москве.  Водители у нас зарабатывают от 80000- 120000 в месяц.</span>
-              <button class="heading__button" type="button">ОТПРАВИТЬ ЗАЯВКУ!</button>
+            <div class="row">
+              <div class="heading d-flex justify-content-center align-items-center">
+                <h1 class="heading__h1">КОМПАНИЯ UBER PARTNERS!</h1>
+                <h2 class="heading__h2">ПРИГЛАШАЕМ ВОДИТЕЛЕЙ! НА СВОЕМ АВТО!</h2>
+                <span class="heading__txt">Компания UBER динамически развивающаяся. Компания на рынке занимает лидирующее место среди таксомоторных компаний. Компания абсолютно прозрачная вы можете контролировать все процессы у себя в личном кабинете. Бонуcная система. По-мимо выполненной работы по заказам, компания начисляет бонусы за пиковое время.<br><br> Мы одни из партнеров и зарекомендовали себя как одна из лучших команд в городе Москве.  Водители у нас зарабатывают от 80000- 120000 в месяц.</span>
+                <button class="heading__button" type="button">ОТПРАВИТЬ ЗАЯВКУ!</button>
+              </div>
             </div>
           </div>
       </section>
 
       <section class="reasons">
         <div class="container">
-          <p class="label--black">преимущества</p>
-          <h2 class="heading__h2--black">8 причин начать работать с нами</h2>
           <div class="row">
-            <div class="reasons-item col-6">
-              <div class="circle-wrapper">
-                <div class="reasons-item__circle">
-                  <img class="reasons-item__img" src="./img/svg/c-card.svg" alt="card image" width="80" height="66">
+            <p class="label--black">преимущества</p>
+            <h2 class="heading__h2--black">8 причин начать работать с нами</h2>
+              <div class="reasons-grid">
+                <div class="reasons-item">
+                  <div class="circle-wrapper">
+                    <div class="reasons-item__circle">
+                      <img class="reasons-item__img" src="./img/svg/c-card.svg" alt="card image" width="80" height="66">
+                    </div>
+                  </div>
+                  <div class="txt-wrapper">
+                    <p class="reasons-item__txt-heading">Никаких наличных, оплата происходит автоматически</p>
+                    <p class="reasons-item__txt">Стоимость поездки оплачивается пассажиром с привязанной банковской карты, т.е. нет никаких рисков связанных с перевозкой наличности как для пассажира, так и для водителя, Вам не нужно искать мелкие деньги для размена.</p>
+                  </div>
+                </div>
+              <div class="reasons-item">
+                <div class="circle-wrapper">
+                  <div class="reasons-item__circle">
+                    <img class="reasons-item__img" src="./img/svg/part.svg" alt="part image" width="64" height="69">
+                  </div>
+                </div>
+                <div class="txt-wrapper">
+                  <p class="reasons-item__txt-heading">Комиссия 8% + БОНУСЫ</p>
+                  <p class="reasons-item__txt">У нас минимальная комиссия и мы выплачиваем бонусы за каждую поездку, некоторые наши конкуренты оставляют бонусы себе. Мы работаем честно и с нами водители зарабатывают больше!</p>
                 </div>
               </div>
-              <div class="txt-wrapper">
-                <p class="reasons-item__txt-heading">Никаких наличных, оплата происходит автоматически</p>
-                <p class="reasons-item__txt">Стоимость поездки оплачивается пассажиром с привязанной банковской карты, т.е. нет никаких рисков связанных с перевозкой наличности как для пассажира, так и для водителя, Вам не нужно искать мелкие деньги для размена.</p>
-              </div>
-            </div>
-            <div class="reasons-item col-6">
-              <div class="circle-wrapper">
-                <div class="reasons-item__circle">
-                  <img class="reasons-item__img" src="./img/svg/part.svg" alt="part image" width="64" height="69">
+              <div class="reasons-item">
+                <div class="circle-wrapper">
+                  <div class="reasons-item__circle">
+                    <img class="reasons-item__img" src="./img/svg/money.svg" alt="money image" width="83" height="53">
+                  </div>
+                </div>
+                <div class="txt-wrapper">
+                  <p class="reasons-item__txt-heading">Высокий доход с гарантированными выплатами</p>
+                  <p class="reasons-item__txt">Мы выплачиваем заработную плату на личную банковскую карту водителя! Вам не нужно оформлять ООО, ИП, платить налоги, подавать декларацию, оплачивать бухгалтерские услуги и ведение банковского счета.</p>
                 </div>
               </div>
-              <div class="txt-wrapper">
-                <p class="reasons-item__txt-heading">Комиссия 8% + БОНУСЫ</p>
-                <p class="reasons-item__txt">У нас минимальная комиссия и мы выплачиваем бонусы за каждую поездку, некоторые наши конкуренты оставляют бонусы себе. Мы работаем честно и с нами водители зарабатывают больше!</p>
-              </div>
-            </div>
-            <div class="reasons-item col-6">
-              <div class="circle-wrapper">
-                <div class="reasons-item__circle">
-                  <img class="reasons-item__img" src="./img/svg/money.svg" alt="money image" width="83" height="53">
+              <div class="reasons-item">
+                <div class="circle-wrapper">
+                  <div class="reasons-item__circle">
+                    <img class="reasons-item__img" src="./img/svg/calendar.svg" alt="calendar image" width="79" height="73">
+                  </div>
+                </div>
+                <div class="txt-wrapper">
+                  <p class="reasons-item__txt-heading">Работа в удобное время, никаких графиков</p>
+                  <p class="reasons-item__txt">Вы просто нажимаете кнопку выйти на линию для начала работы, когда решите закончить, нажимаете выйти с линии. Вы можете подрабатывать только утром, вечером, в выходные или праздничные дни! </p>
                 </div>
               </div>
-              <div class="txt-wrapper">
-                <p class="reasons-item__txt-heading">Высокий доход с гарантированными выплатами</p>
-                <p class="reasons-item__txt">Мы выплачиваем заработную плату на личную банковскую карту водителя! Вам не нужно оформлять ООО, ИП, платить налоги, подавать декларацию, оплачивать бухгалтерские услуги и ведение банковского счета.</p>
-              </div>
-            </div>
-            <div class="reasons-item col-6">
-              <div class="circle-wrapper">
-                <div class="reasons-item__circle">
-                  <img class="reasons-item__img" src="./img/svg/calendar.svg" alt="calendar image" width="79" height="73">
+              <div class="reasons-item">
+                <div class="circle-wrapper">
+                  <div class="reasons-item__circle">
+                    <img class="reasons-item__img" src="./img/svg/key.svg" alt="key image" width="54" height="78">
+                  </div>
+                </div>
+                <div class="txt-wrapper">
+                  <p class="reasons-item__txt-heading">Комфортное, прозрачное и простое подключение</p>
+                  <p class="reasons-item__txt">Мы подключаем дистанционно и бесплатно, Вам нет необходимости приезжать к нам! Вы присылаете нам копии документов, мы регистрируем Вас и присылаем данные для подключения, через 1-2 дня Вы можете начинать работать!</p>
                 </div>
               </div>
-              <div class="txt-wrapper">
-                <p class="reasons-item__txt-heading">Работа в удобное время, никаких графиков</p>
-                <p class="reasons-item__txt">Вы просто нажимаете кнопку выйти на линию для начала работы, когда решите закончить, нажимаете выйти с линии. Вы можете подрабатывать только утром, вечером, в выходные или праздничные дни! </p>
-              </div>
-            </div>
-            <div class="reasons-item col-6">
-              <div class="circle-wrapper">
-                <div class="reasons-item__circle">
-                  <img class="reasons-item__img" src="./img/svg/key.svg" alt="key image" width="54" height="78">
+              <div class="reasons-item">
+                <div class="circle-wrapper">
+                  <div class="reasons-item__circle">
+                    <img class="reasons-item__img" src="./img/svg/map.svg" alt="map image" width="63" height="67">
+                  </div>
+                </div>
+                <div class="txt-wrapper">
+                  <p class="reasons-item__txt-heading">Всегда большое количество заказов</p>
+                  <p class="reasons-item__txt">Приложение показывает, где на данный момент больше всего заказов и где действуют повышенные тарифы. У Вас не будет простоя и холостых пробегов. Наши пассажиры всегда приятные и абсолютно неконфликтные люди, которых приятно возить.</p>
                 </div>
               </div>
-              <div class="txt-wrapper">
-                <p class="reasons-item__txt-heading">Комфортное, прозрачное и простое подключение</p>
-                <p class="reasons-item__txt">Мы подключаем дистанционно и бесплатно, Вам нет необходимости приезжать к нам! Вы присылаете нам копии документов, мы регистрируем Вас и присылаем данные для подключения, через 1-2 дня Вы можете начинать работать!</p>
-              </div>
-            </div>
-            <div class="reasons-item col-6">
-              <div class="circle-wrapper">
-                <div class="reasons-item__circle">
-                  <img class="reasons-item__img" src="./img/svg/map.svg" alt="map image" width="63" height="67">
+              <div class="reasons-item">
+                <div class="circle-wrapper">
+                  <div class="reasons-item__circle">
+                    <img class="reasons-item__img" src="./img/svg/call.svg" alt="call image" width="85" height="66">
+                  </div>
+                </div>
+                <div class="txt-wrapper">
+                  <p class="reasons-item__txt-heading">Круглосуточная поддержка</p>
+                  <p class="reasons-item__txt">В Uber действует круглосуточная поддержка водителей по электронной почте. Если что-то непонятно, Вы всегда можете задать вопрос через On-line консультацию.</p>
                 </div>
               </div>
-              <div class="txt-wrapper">
-                <p class="reasons-item__txt-heading">Всегда большое количество заказов</p>
-                <p class="reasons-item__txt">Приложение показывает, где на данный момент больше всего заказов и где действуют повышенные тарифы. У Вас не будет простоя и холостых пробегов. Наши пассажиры всегда приятные и абсолютно неконфликтные люди, которых приятно возить.</p>
-              </div>
-            </div>
-            <div class="reasons-item col-6">
-              <div class="circle-wrapper">
-                <div class="reasons-item__circle">
-                  <img class="reasons-item__img" src="./img/svg/call.svg" alt="call image" width="85" height="66">
+              <div class="reasons-item">
+                <div class="circle-wrapper">
+                  <div class="reasons-item__circle">
+                    <img class="reasons-item__img" src="./img/svg/auto.svg" alt="auto image" width="73" height="68">
+                  </div>
+                </div>
+                <div class="txt-wrapper">
+                  <p class="reasons-item__txt-heading">Без шашечек и наклеек</p>
+                  <p class="reasons-item__txt">Вам не нужно менять цвет, устанавливать «шашки» на автомобиль и обклеивать его наклейками.</p>
                 </div>
               </div>
-              <div class="txt-wrapper">
-                <p class="reasons-item__txt-heading">Круглосуточная поддержка</p>
-                <p class="reasons-item__txt">В Uber действует круглосуточная поддержка водителей по электронной почте. Если что-то непонятно, Вы всегда можете задать вопрос через On-line консультацию.</p>
               </div>
-            </div>
-            <div class="reasons-item col-6">
-              <div class="circle-wrapper">
-                <div class="reasons-item__circle">
-                  <img class="reasons-item__img" src="./img/svg/auto.svg" alt="auto image" width="73" height="68">
-                </div>
-              </div>
-              <div class="txt-wrapper">
-                <p class="reasons-item__txt-heading">Без шашечек и наклеек</p>
-                <p class="reasons-item__txt">Вам не нужно менять цвет, устанавливать «шашки» на автомобиль и обклеивать его наклейками.</p>
-              </div>
-            </div>
           </div>
         </div>
       </section>
