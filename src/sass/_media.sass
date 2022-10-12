@@ -19,12 +19,29 @@
 @media (max-width: 991px)
   .heading
     margin-top: 20px
-    &__h1
 
   .menu
     &__link
       padding: 0 20px
       text-align: center
+  .req-wrapper
+    margin-left: 30%
+
+
+// =========================================== 1200 =========================================== //
+@media (max-width: 1199px)
+  .requirements
+    &__item
+      display: flex
+      flex-direction: column
+      align-content: center
+      justify-content: flex-start
+
+  .mt40
+      margin-top: -150px
+  .req-wrapper
+    margin-left: 10%
+
 
 // =========================================== 768 =========================================== //
 
@@ -57,6 +74,11 @@
       flex-direction: column
       justify-content: center
       align-items: center
+  .req-wrapper
+    margin-left: 0%
+  .world
+    &__txt
+      margin-top: auto
 
 // =========================================== 576 =========================================== //
 
@@ -67,3 +89,11 @@
   .logo
     &__wrapper
       display: none
+  .reasons-grid
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr))
+  .req-wrapper
+    margin-left: 0%
+  .world
+    &__txt
+      margin-top: auto
+
