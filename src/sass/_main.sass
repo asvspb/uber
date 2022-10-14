@@ -170,7 +170,7 @@
   &__circle
     display: flex
     justify-content: center
-    align-self: center
+    align-items: center
     width: 116px
     height: 116px
     background: #1EACC7
@@ -253,6 +253,8 @@
     min-height: 397px
   &__img
     margin-top: 54px
+    max-width: 100%
+    height: auto
   &__txt
     font-weight: 300
     font-size: 17px
@@ -335,18 +337,12 @@
 
 // ---------------------------------------------- footer ---------------------------------------------- //
 
-
 .footer
-  position: relative
-  display: flex
-  justify-content: space-between
-  flex-wrap: wrap
-  min-height: 160px
-  width: 100%
-  padding: 20px
   &__icons
     display: flex
     align-items: center
+    min-height: 50px
+    padding-left: 25px
   &__nav
     display: flex
     flex-direction: column
@@ -354,7 +350,21 @@
     min-width: 380px
   &__app
     display: flex
+    justify-content: flex-end
     align-items: center
+    padding-right: 25px
+  &__img
+    width: 297px
+    height: 27px
+
+.footer-grid
+  position: relative
+  width: 100%
+  display: grid
+  grid-gap: 15px
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr))
+  grid-auto-rows: minmax(50, 1fr)
+
 .icon
   display: flex
   justify-content: center
@@ -371,6 +381,7 @@
   width: 301px
   height: 7px
   background: #1FBAD6
+  margin: 15px auto
 .nav-row
   p
     display: inline-block
