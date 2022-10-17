@@ -4,7 +4,9 @@
 // ≥1200px
 // ≥1400px
 
-// =========================================== 1400 =========================================== //
+/* -------------------------------------------------------------------------- */
+/*                              section ///[1400]                             */
+/* -------------------------------------------------------------------------- */
 
 @media (max-width: 1399px)
   .menu
@@ -27,7 +29,9 @@
   .req-wrapper
     margin-left: 30%
 
-// =========================================== 1200 =========================================== //
+/* -------------------------------------------------------------------------- */
+/*                              section ///[1200]                             */
+/* -------------------------------------------------------------------------- */
 @media (max-width: 1199px)
   .requirements
     &__item
@@ -46,60 +50,26 @@
     justify-content: center
     align-items: center
 
-// =========================================== 1100 =========================================== //
-// @media ( max-width: 1100px )
-//   .row
-//     height: 53px
-//   .nav-bg
-//     display: flex
-//     align-items: center
-//     background-color: #333333
-//     width: 100%
-//     display: block
-//   .nav-burger
-//     width: 100%
-//     &__line
-//       display: block
-//       margin-left: auto
-//       height: 5px
-//       width: 45px
-//       background-color: #fff
-//       transition: 0.8s all
-//     &__line:nth-child(2)
-//       background-color: #fff
-//       margin-top: 7px
-//       margin-bottom: 7px
-//       // активизация меню
-//     &--active
-//       span:nth-child(1)
-//         display: none
-//         transform: rotate(45deg)
-//       span:nth-child(2)
-//         margin-bottom: -5px
-//         margin-top: 0px
-//         transform: rotate(-45deg)
-//       span:nth-child(3)
-//         transform: rotate(45deg)
-//   .menu
-//     &__link
-//       border-right: none
-//       font-size: clamp(1rem, 2.5vw, 6vw)
-//       padding: 10px
-//   .navigation
-//     flex-direction: column
-//     position: fixed
-//     background-color: rgba(0, 0, 0, 0.91)
-//     text-transform: uppercase
-//     color: #1EACC7
-//     width: 50%
-//     height: 100vh
-//     top: 0
-//     left: -100%
-//     transition: .2s all
-//     &__active
-//       left: 0
+/* -------------------------------------------------------------------------- */
+/*                              section ///[1100]                             */
+/* -------------------------------------------------------------------------- */
+@media ( max-width: 1100px )
+  .menu
+    display: flex
+    flex-direction: column
+    background-color: #ac2929cc
+    &__link
+      border: 0
+      opacity: 0
+  .footer
+    &__icons
+      padding-left: 0
+    &__app
+      padding-right: 0
 
-// =========================================== 768 =========================================== //
+/* -------------------------------------------------------------------------- */
+/*                              section ///[768]                              */
+/* -------------------------------------------------------------------------- */
 
 @media (max-width: 767px)
   .heading
@@ -136,12 +106,11 @@
     &__txt
       margin-top: auto
 
-// =========================================== 576 =========================================== //
+/* -------------------------------------------------------------------------- */
+/*                              section ///[576]                              */
+/* -------------------------------------------------------------------------- */
 
 @media (max-width: 575px)
-  .heading
-    &__button
-      margin: 10px
   .logo
     &__wrapper
       display: none
