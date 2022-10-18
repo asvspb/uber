@@ -66,10 +66,9 @@
     display: block
     position: relative
     background: #e4e4e4
-    width: 40px
+    width: 30px
     height: 4px
     top: 13px
-    // transition: background .3s ease-out
     cursor: pointer
   .nav-icon:before
     content: ''
@@ -77,7 +76,7 @@
     position: absolute
     transition: background .3s ease-out
     background: #e4e4e4
-    width: 40px
+    width: 30px
     height: 4px
     top: 7px
   .nav-icon:after
@@ -86,7 +85,7 @@
     position: absolute
     transition: background .3s ease-out
     background: #e4e4e4
-    width: 40px
+    width: 30px
     height: 4px
     top: -7px
 
@@ -112,7 +111,10 @@
     top: 0
 
   .menu-btn:checked ~ .nav-icon
-    opacity: 0
+    width: 100px
+    height: 100px
+    background-color: #822d2d
+
 
   // .menu-btn:checked ~ .nav-icon:before
   //   transform: rotate(45deg)
