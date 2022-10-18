@@ -21,12 +21,9 @@
     <header class="navigation-bg">
         <div class="container">
           <div class="row">
-            <div class="menu-bar" id="menu-bar" onclick="menuOnClick()">
-              <div id="bar1" class="bar"></div>
-              <div id="bar2" class="bar"></div>
-              <div id="bar3" class="bar"></div>
-            </div>
-            <nav class="navigation-menu flex-menu">
+            <input class="menu-btn" type="checkbox" id="menu-btn">
+            <div class="menu-wrapper"><label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label></div>
+            <nav class="menu">
               <a href="#" class="menu__link">Главная</a>
               <a href="#" class="menu__link">Со своим автомобилем</a>
               <a href="#" class="menu__link">На автомобиле компании</a>
@@ -34,6 +31,7 @@
               <a href="#" class="menu__link">Контакты</a>
               <a href="#" class="menu__link">Оставить заявку</a>
             </nav>
+            <div class="secondary-nav"></div>
           </div>
         </div>
     </header>
